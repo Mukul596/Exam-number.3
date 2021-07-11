@@ -461,10 +461,43 @@
   .our_news_section article {
     margin: 18px 36px;
   }
+  
+  .m-service_sec .section_title {
+	  margin-bottom: 40px;
+  }
 
   .service_section {
-    padding: 64px 0;
+	  padding: 40px 0;
   }
+  
+  .m-service_sec {
+	  padding: 40px 0;
+  }
+  
+  .r-project_section {
+	  padding: 40px 0;
+  }
+  .r-project_section .section_title {
+	  margin-bottom: 40px;
+  }
+  .choose-section {
+	  padding: 40px 0;
+  }
+  .team_section {
+	padding: 40px 0;
+  }
+  .team_section .section_title {
+	  margin-bottom: 40px;
+  }
+  
+  .contact_section {
+	padding: 50px 0;
+	
+}
+  .counter_section .bg_image {
+	padding: 50px;
+}
+
   .m-service_sec .m_secvice_item .m_service_icon {
     margin-right: 23px;
   }
@@ -477,8 +510,9 @@
   .about_section .about_left_section img {
     height: 100%;
   }
-  .about_section {
-    padding-bottom: 95px;
+   .about_section {
+	    padding-bottom: 39px;
+	    padding-top: 52px;
   }
   .hero_section #carouselExampleCaptions .carousel-inner .carousel-item {
     height: 396px;
@@ -489,6 +523,14 @@
   .hero_section .slider_caption h1 {
     margin-top: 60px;
   }
+  
+  .testiomonial_section {
+	padding: 40px 0;
+
+}
+  .testiomonial_section .section_title {
+	margin-bottom: -6px;
+}
   .testiomonial_section #testimonial_sec_slider .testimonial_image {
     width: 80px;
     height: 80px;
@@ -498,15 +540,30 @@
     text-align: justify;
     padding: 0 50px;
   }
+
+  .our_news_section {
+	  padding: 40px 0;
+	  background: #ffffff;
+}
+  .our_news_section .section_title {
+
+	margin-bottom: 40px;
+}
   .chemistry_section .carousel-inner .carousel-item .inner_section {
     transform: translate(3rem);
   }
   .col-sm-6{
     margin-bottom: 3rem;
   }
-  .chemistry_section .carousel-inner {
-    padding: 4rem 0 3rem 0;
-  }
+ .chemistry_section .carousel-inner {
+	padding: 4rem 0 0rem 0;
+}
+  footer {
+	padding: 40px 0;
+}
+  footer .footer__bottom {
+	margin-top: 0;
+}
   .proggres_1 {
     transform: translateX(-6.5rem);
   }
@@ -516,6 +573,7 @@
   .proggres_3 {
     transform: translateX(-3.5rem);
   }
+  
 }
 
 @media (max-width: 575.98px) {
@@ -630,6 +688,34 @@
     height: 10rem;
     margin-bottom: 3rem;
   }
+  
+  .proggres_1 {
+    transform: translateX(-6.5rem);
+  }
+  .proggres_2 {
+    transform: translateX(-12rem);
+  }
+  .proggres_3 {
+    transform: translateX(-3.5rem);
+  }
+}
+
+@media all and (max-width: 530px) {
+  .proggres_1 {
+    transform: translateX(-4.5rem);
+  }
+  .proggres_2 {
+    transform: translateX(-10rem);
+  }
+  .proggres_3 {
+    transform: translateX(-2.5rem);
+  }
+}
+
+@media all and (max-width: 460px){
+  .proggres_2 {
+    transform: translateX(-8rem);
+  }
 }
 
 @media all and (max-width: 410px) {
@@ -717,6 +803,10 @@
   .chemistry_section .carousel-inner .carousel-item .inner_section {
     transform: translateX(31%);
 
+  }
+  
+   .proggres_2 {
+    transform: translateX(-9rem);
   }
 }
 
